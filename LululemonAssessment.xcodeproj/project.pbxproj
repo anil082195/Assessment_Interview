@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB3818E52440B62600162C19 /* Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3818E52440B62600162C19 /* LululemonAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LululemonAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3818E82440B62600162C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB3818EA2440B62700162C19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AB3818EC2440B62700162C19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,10 +50,10 @@
 		AB3818F42440B62D00162C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB3818F72440B62D00162C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB3818F92440B62D00162C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB3818FE2440B62D00162C19 /* AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3818FE2440B62D00162C19 /* LululemonAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LululemonAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3819022440B62D00162C19 /* LululemonAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LululemonAssessmentTests.swift; sourceTree = "<group>"; };
 		AB3819042440B62D00162C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB3819092440B62D00162C19 /* AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3819092440B62D00162C19 /* LululemonAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LululemonAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB38190D2440B62D00162C19 /* LululemonAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LululemonAssessmentUITests.swift; sourceTree = "<group>"; };
 		AB38190F2440B62D00162C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB38191B2440B85200162C19 /* AddGarmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGarmentController.swift; sourceTree = "<group>"; };
@@ -103,9 +103,9 @@
 		AB3818E62440B62600162C19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB3818E52440B62600162C19 /* Assessment.app */,
-				AB3818FE2440B62D00162C19 /* AssessmentTests.xctest */,
-				AB3819092440B62D00162C19 /* AssessmentUITests.xctest */,
+				AB3818E52440B62600162C19 /* LululemonAssessment.app */,
+				AB3818FE2440B62D00162C19 /* LululemonAssessmentTests.xctest */,
+				AB3819092440B62D00162C19 /* LululemonAssessmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,9 +166,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB3818E42440B62600162C19 /* Assessment */ = {
+		AB3818E42440B62600162C19 /* LululemonAssessment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB3819122440B62D00162C19 /* Build configuration list for PBXNativeTarget "Assessment" */;
+			buildConfigurationList = AB3819122440B62D00162C19 /* Build configuration list for PBXNativeTarget "LululemonAssessment" */;
 			buildPhases = (
 				AB3818E12440B62600162C19 /* Sources */,
 				AB3818E22440B62600162C19 /* Frameworks */,
@@ -178,14 +178,14 @@
 			);
 			dependencies = (
 			);
-			name = Assessment;
+			name = LululemonAssessment;
 			productName = LululemonAssessment;
-			productReference = AB3818E52440B62600162C19 /* Assessment.app */;
+			productReference = AB3818E52440B62600162C19 /* LululemonAssessment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB3818FD2440B62D00162C19 /* AssessmentTests */ = {
+		AB3818FD2440B62D00162C19 /* LululemonAssessmentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB3819152440B62D00162C19 /* Build configuration list for PBXNativeTarget "AssessmentTests" */;
+			buildConfigurationList = AB3819152440B62D00162C19 /* Build configuration list for PBXNativeTarget "LululemonAssessmentTests" */;
 			buildPhases = (
 				AB3818FA2440B62D00162C19 /* Sources */,
 				AB3818FB2440B62D00162C19 /* Frameworks */,
@@ -196,14 +196,14 @@
 			dependencies = (
 				AB3819002440B62D00162C19 /* PBXTargetDependency */,
 			);
-			name = AssessmentTests;
+			name = LululemonAssessmentTests;
 			productName = LululemonAssessmentTests;
-			productReference = AB3818FE2440B62D00162C19 /* AssessmentTests.xctest */;
+			productReference = AB3818FE2440B62D00162C19 /* LululemonAssessmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AB3819082440B62D00162C19 /* AssessmentUITests */ = {
+		AB3819082440B62D00162C19 /* LululemonAssessmentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB3819182440B62D00162C19 /* Build configuration list for PBXNativeTarget "AssessmentUITests" */;
+			buildConfigurationList = AB3819182440B62D00162C19 /* Build configuration list for PBXNativeTarget "LululemonAssessmentUITests" */;
 			buildPhases = (
 				AB3819052440B62D00162C19 /* Sources */,
 				AB3819062440B62D00162C19 /* Frameworks */,
@@ -214,9 +214,9 @@
 			dependencies = (
 				AB38190B2440B62D00162C19 /* PBXTargetDependency */,
 			);
-			name = AssessmentUITests;
+			name = LululemonAssessmentUITests;
 			productName = LululemonAssessmentUITests;
-			productReference = AB3819092440B62D00162C19 /* AssessmentUITests.xctest */;
+			productReference = AB3819092440B62D00162C19 /* LululemonAssessmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -242,7 +242,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB3818E02440B62600162C19 /* Build configuration list for PBXProject "Assessment" */;
+			buildConfigurationList = AB3818E02440B62600162C19 /* Build configuration list for PBXProject "LululemonAssessment" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -255,9 +255,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB3818E42440B62600162C19 /* Assessment */,
-				AB3818FD2440B62D00162C19 /* AssessmentTests */,
-				AB3819082440B62D00162C19 /* AssessmentUITests */,
+				AB3818E42440B62600162C19 /* LululemonAssessment */,
+				AB3818FD2440B62D00162C19 /* LululemonAssessmentTests */,
+				AB3819082440B62D00162C19 /* LululemonAssessmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -326,12 +326,12 @@
 /* Begin PBXTargetDependency section */
 		AB3819002440B62D00162C19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB3818E42440B62600162C19 /* Assessment */;
+			target = AB3818E42440B62600162C19 /* LululemonAssessment */;
 			targetProxy = AB3818FF2440B62D00162C19 /* PBXContainerItemProxy */;
 		};
 		AB38190B2440B62D00162C19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB3818E42440B62600162C19 /* Assessment */;
+			target = AB3818E42440B62600162C19 /* LululemonAssessment */;
 			targetProxy = AB38190A2440B62D00162C19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -523,7 +523,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assessment.app/Assessment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LululemonAssessment.app/LululemonAssessment";
 			};
 			name = Debug;
 		};
@@ -544,7 +544,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assessment.app/Assessment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LululemonAssessment.app/LululemonAssessment";
 			};
 			name = Release;
 		};
@@ -589,7 +589,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB3818E02440B62600162C19 /* Build configuration list for PBXProject "Assessment" */ = {
+		AB3818E02440B62600162C19 /* Build configuration list for PBXProject "LululemonAssessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB3819102440B62D00162C19 /* Debug */,
@@ -598,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB3819122440B62D00162C19 /* Build configuration list for PBXNativeTarget "Assessment" */ = {
+		AB3819122440B62D00162C19 /* Build configuration list for PBXNativeTarget "LululemonAssessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB3819132440B62D00162C19 /* Debug */,
@@ -607,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB3819152440B62D00162C19 /* Build configuration list for PBXNativeTarget "AssessmentTests" */ = {
+		AB3819152440B62D00162C19 /* Build configuration list for PBXNativeTarget "LululemonAssessmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB3819162440B62D00162C19 /* Debug */,
@@ -616,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB3819182440B62D00162C19 /* Build configuration list for PBXNativeTarget "AssessmentUITests" */ = {
+		AB3819182440B62D00162C19 /* Build configuration list for PBXNativeTarget "LululemonAssessmentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB3819192440B62D00162C19 /* Debug */,
